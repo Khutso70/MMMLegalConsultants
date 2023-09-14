@@ -27,8 +27,53 @@ body {
     height: 400px;
   }
 }
+@media (min-width: 768px) {
+  nav {
+    background: linear-gradient(to right, rgba(255, 255, 255, 0), #ffff 41%);
+  }
+  .nicebg .content {
+    background: linear-gradient(
+      to right,
+      rgb(255, 255, 255) 41%,
+      rgba(255, 255, 255, 0)
+    );
+  }
+}
+
 @media (max-width: 768px) {
   iframe {
     height: 300px;
   }
+  .nicebg .content {
+    background: rgba(255, 255, 255, 0.753);
+  }
+}
+.nicebg {
+  background: url(court-hammer-books-judgment-law-concept_144627-30452.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/* nav { */
+/* background: linear-gradient(to right, rgba(255, 255, 255, 0), #ffff); */
+/* } */
+/* .nicebg .content { */
+/* background: linear-gradient( */
+/* to right, */
+/* rgb(255, 255, 255), */
+/* rgba(255, 255, 255, 0) */
+/* ); */
+/* } */
+ul {
+  list-style: none;
+}
+.about {
+  background: rgba(255, 255, 255, 0.753);
+}
+.topics {
+  background: url(news\ 2nd\ CCJE-GT\ meeting.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.bi-star-fill {
+  color: gold;
 }
