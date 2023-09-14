@@ -1,0 +1,803 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("lPMZP1i6pyuk-sBw6");
+   })();
+</script>
+<script src="app.js"></script>
+  </head>
+  <body >
+    <!--Start NavBar-->
+    <nav class="navbar navbar-expand-md navbar-light">
+      <div class="container-xxl">
+        <a href="#intro" class="navbar-brand">
+          <img
+            src="MMM_New_Logo-removebg.png"
+            width="120"
+            height="120"
+            alt=""
+          />
+        </a>
+        <!--TOGGLE-->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#main-nav"
+          aria-controls="main-nav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          id="main-nav"
+          class="collapse navbar-collapse justify-content-end align-center"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a href="#" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#About" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link">Contact</a>
+            </li>
+            <li class="nav-item d-md-none">
+              <a href="tel:0123456789" class="btn btn-secondary"><i class="bi bi-telephone-fill muted"></i> Instant Call</a>
+            </li>
+            <li class="nav-item ms-2 d-none d-md-inline">
+              <a href="tel:0123456789" class="btn btn-secondary"><i class="bi bi-telephone-fill muted"></i> Instant Call</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--End NavBar-->
+
+    <!--Start intro-->
+    <section id="intro">
+      <div class="container-lg">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-md-5 text-center text-md-start">
+            <h1>
+              <div class="display-2"><span class="text-primary fw-bold">M</span><span class="text-danger fw-bold">M</span><span class="text-primary fw-bold">M</span></div>
+              <div class="display-5 text-muted text-decoration-underline fw-bold">Legal Consultants</div>
+            </h1>
+            <p class="lead my-4 text-muted">
+              Empowering Justice, Safeguarding Rights: Welcome to MMM Legal Consultants
+            </p>
+            <a href="#contact" class="btn btn-primary btn-lg"
+              >Book A Consultation</a
+            >
+          </div>
+          <div
+            class="col-md-5 text-center d-none d-md-block"
+          
+          >
+            <img
+              src="Picture3-removebg-preview.png"
+              alt="Hero img"
+              class="img-fluid"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--End intro-->
+    <!--Services-->
+    <section
+      class="mt-5 bg-light"
+      id="services"
+      
+    >
+      <div class="container-lg ">
+        <div class="text-center">
+          <h2>About</h2>
+          <p class="lead text-muted"><span class="fw-bold text-decoration-underline">MMM Legal Consultants:</span></p>
+        </div>
+        <div class="row justify-content-center my-5">
+          <div class="col-lg-8">
+          
+ 
+                
+          <p class="mb-3">
+           <span class="fw-bold text-decoration-underline">MMM Legal Consultants</span> is a leading law firm based in 
+            South Africa, committed to delivering exceptional 
+            legal services with a focus on integrity, expertise, 
+            and client satisfaction. Our mission is to provide 
+            innovative and practical legal solutions that empower 
+            individuals and businesses to thrive in a dynamic legal 
+            landscape.
+          </p>
+          <p class="mb-3">
+            We are proud to be a BBBEE-certified company, 
+            demonstrating our dedication to promoting economic 
+            empowerment and equality in South Africa. Our 
+            commitment to BBBEE principles runs deep, and 
+            we work tirelessly to help our clients achieve 
+            their BBBEE objectives.</p>
+          
+            
+                 <small class="h5">Choose MMM Legal Consultants 
+                  as your trusted legal partner, and let us navigate the legal complexities for you, ensuring your peace of mind and success in achieving your legal goals.</small>
+          
+         <br><br><br>
+        </div>
+        
+        <!-- <div class="row my-5 align-items-center g-0 justify-content-center">
+          <div class="col-8 col-lg-4 col-xl-3">
+            <div class="card border-0">
+              <div class="card-body text-center py-4">
+                <h4 class="card-title">Starter Edition</h4>
+                <p class="lead card-subtitle">Download</p>
+                <p class="display-5 my-4 text-primary fw-bold">40.0</p>
+                <p class="card-text mx-5 text-muted d-none d-lg-block">
+                  Lorem ipsum dolor sit amet.
+                </p>
+                <a href="#" class="btn btn-outline-primary btn-lg mt-3"
+                  >Buy Now</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-9 col-lg-4">
+            <div class="card border-primary border-2">
+              <div class="card-header text-center text-primary">
+                Most Popular
+              </div>
+              <div class="card-body text-center py-4">
+                <h4 class="card-title">Starter Edition</h4>
+                <p class="lead card-subtitle">Download</p>
+                <p class="display-5 my-4 text-primary fw-bold">40.0</p>
+                <p class="card-text mx-5 text-muted d-none d-lg-block">
+                  Lorem ipsum dolor sit amet.
+                </p>
+                <a href="#" class="btn btn-outline-primary btn-lg mt-3"
+                  >Buy Now</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-8 col-lg-4 col-xl-3">
+            <div class="card border-0">
+              <div class="card-body text-center py-4">
+                <h4 class="card-title">Starter Edition</h4>
+                <p class="lead card-subtitle">Download</p>
+                <p class="display-5 my-4 text-primary fw-bold">40.0</p>
+                <p class="card-text mx-5 text-muted d-none d-lg-block">
+                  Lorem ipsum dolor sit amet.
+                </p>
+                <a href="#" class="btn btn-outline-primary btn-lg mt-3"
+                  >Buy Now</a
+                >
+              </div>
+            </div>
+          </div>
+        </div> -->
+      </div>
+      </div>
+    </section>
+    <!--Services-->
+    <!--Topics-->
+    <section id="topics">
+      <div class="container-md shadow-lg p-3 mb-5 bg-body-tertiary rounded">
+        <div class="text-center">
+          <h2 class="fw-bold">Our services...</h2>
+          <p class="lead text-muted">Explore Our Comprehensive Legal Solutions.</p>
+        </div>
+        <div class="row my-1 g-2 justify-content-around align-items-center">
+          <div class="col-6 col-lg-6">
+            <img
+              src="Picture2-removebg-preview.png"
+              class="img-fluid"
+              alt="x"
+            />
+          </div>
+
+          <!--Accordion-->
+          <div class="col-lg-6">
+            <div class="accordion" id="services">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="heading-1">
+                  <button
+                    class="accordion-button"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#service-1"
+                    aria-expanded="true"
+                    aria-controls="service-1"
+                  >
+                  Divorce & Mediation:
+                  </button>
+                </h2>
+                <div
+                  id="service-1"
+                  class="accordion-collapse collapse show"
+                  aria-labelledby="heading-1"
+                  data-bs-parent="#services"
+                >
+                  <div class="accordion-body">
+                    <p>
+                      Navigating the complexities of divorce and mediation demands sensitivity and expertise. At MMM Legal Consultants, our experienced team offers a compassionate and strategic approach to divorce proceedings.  </p>
+                    <p>
+                      Whether you seek an amicable resolution or require assertive representation in court, we prioritize your interests and safeguard your rights. Schedule a consultation at our office, where we will work closely with you to create a customized strategy that brings clarity and peace to your journey. </p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="heading-2">
+                  <button
+                    class="accordion-button"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#service-2"
+                    aria-expanded="true"
+                    aria-controls="service-2"
+                  >
+                  Estate Administration Solutions:
+                  </button>
+                </h2>
+                <div
+                  id="service-2"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="heading-2"
+                  data-bs-parent="#services"
+                >
+                  <div class="accordion-body">
+                    <p>
+                      Handling estate matters can be emotionally challenging. At MMM Legal Consultants, we provide meticulous estate administration services designed to offer comfort and assurance during difficult times. 
+                    </p>
+                    <p>
+                      Our team will guide you through the process, addressing your concerns and ensuring the respectful management of your loved one's legacy. Trust our expertise to ease the burden of legal complexities, allowing you to focus on preserving cherished memories.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="heading-3">
+                  <button
+                    class="accordion-button"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#service-3"
+                    aria-expanded="true"
+                    aria-controls="service-3"
+                  >
+                  Maintenance Advocacy & Support:
+                  </button>
+                </h2>
+                <div
+                  id="service-3"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="heading-3"
+                  data-bs-parent="#services"
+                >
+                  <div class="accordion-body">
+                    <p>
+                      Secure your financial well-being with MMM Legal Consultants. Our dedicated team specializes in advocating for rightful maintenance support, ensuring your future remains stable. 
+                    </p>
+                    <p>
+                      Visit our office to discuss your unique circumstances, and together, we will develop a strategy that safeguards your financial security. With our skilled guidance, you can confidently pursue the support you deserve.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="heading-4">
+                  <button
+                    class="accordion-button"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#service-4"
+                    aria-expanded="true"
+                    aria-controls="service-4"
+                  >
+                  Wills & Trusts Planning:
+                  </button>
+                </h2>
+                <div
+                  id="service-4"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="heading-4"
+                  data-bs-parent="#services"
+                >
+                  <div class="accordion-body">
+                    <p>
+                      Create a legacy of protection and care with MMM Legal Consultants. Our meticulous approach to wills and trusts ensures your family's future is in capable hands. 
+                    </p>
+                    <p>
+                      Schedule a consultation at our office to discuss your wishes, and let's tailor a comprehensive plan that secures your assets and ensures your intentions are honored.
+                    </p>
+                    <a href="#contact" class="btn btn-primary">Schedule</a>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="heading-5">
+                  <button
+                    class="accordion-button"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#service-5"
+                    aria-expanded="true"
+                    aria-controls="service-5"
+                  >
+                  Criminal Defense Expertise:
+                  </button>
+                </h2>
+                <div
+                  id="service-5"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="heading-5"
+                  data-bs-parent="#services"
+                >
+                  <div class="accordion-body">
+                    <p>
+                      Facing criminal charges demands a strategic and assertive defense. At MMM Legal Consultants, our experienced team is prepared to protect your rights and vigorously advocate for your freedom.
+                    </p>
+                    <p>
+                      When you visit our office, we will carefully analyze the evidence and construct a robust defense strategy. Your initial consultation with us could be the crucial first step towards securing a favorable outcome.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="heading-6">
+                  <button
+                    class="accordion-button"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#service-6"
+                    aria-expanded="true"
+                    aria-controls="service-6"
+                  >
+                  Road Accident Fund (RAF) Claims Assistance:
+                  </button>
+                </h2>
+                <div
+                  id="service-6"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="heading-6"
+                  data-bs-parent="#services"
+                >
+                  <div class="accordion-body">
+                    <p>
+                      Recovery after a road accident can be challenging, but MMM Legal Consultants is here to support you.
+                    </p>
+                    <p>
+                      When you visit our office, we'll provide expert guidance on accessing the compensation you rightfully deserve. Allow us to navigate the legal process on your behalf and assist you in rebuilding your life.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="heading-7">
+                  <button
+                    class="accordion-button"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#service-7"
+                    aria-expanded="true"
+                    aria-controls="service-7"
+                  >
+                  Civil Litigation Expertise:
+                  </button>
+                </h2>
+                <div
+                  id="service-7"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="heading-7"
+                  data-bs-parent="#services"
+                >
+                  <div class="accordion-body">
+                    <p>
+                      Resolve disputes with confidence through MMM Legal Consultants. Our strategic approach to civil litigation ensures that your interests are well-protected. </p>
+                    <p>
+                      During your consultation at our office, we'll delve into your case, discuss potential strategies, and advocate vigorously for your rights throughout the resolution process.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="heading-8">
+                  <button
+                    class="accordion-button"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#service-8"
+                    aria-expanded="true"
+                    aria-controls="service-8"
+                  >
+                  Debt Collection Solutions:
+                  </button>
+                </h2>
+                <div
+                  id="service-8"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="heading-8"
+                  data-bs-parent="#services"
+                >
+                  <div class="accordion-body">
+                    <p>
+                      Empower your business with the effective debt collection services of MMM Legal Consultants. Our comprehensive solutions assist you in reclaiming outstanding debts.</p>
+                    <p>
+                      Schedule a consultation at our office to discuss your financial concerns, and let's create a plan that strengthens your financial position.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="heading-9">
+                  <button
+                    class="accordion-button"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#service-9"
+                    aria-expanded="true"
+                    aria-controls="service-9"
+                  >
+                  Property Law Guidance:
+                  </button>
+                </h2>
+                <div
+                  id="service-9"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="heading-9"
+                  data-bs-parent="#services"
+                >
+                  <div class="accordion-body">
+                    <p>
+                      Navigating property transactions demands expertise, and at MMM Legal Consultants, we're here to guide you.</p>
+                    <p>
+                      During your visit to our office, we will explain the intricacies of property law and provide tailored solutions to protect your interests throughout the transaction process.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="heading-10">
+                  <button
+                    class="accordion-button"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#service-10"
+                    aria-expanded="true"
+                    aria-controls="service-10"
+                  >
+                  Correspondent Services for Legal Professionals:
+                  </button>
+                </h2>
+                <div
+                  id="service-10"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="heading-10"
+                  data-bs-parent="#services"
+                >
+                  <div class="accordion-body">
+                    <p>
+                      Legal professionals, elevate your practice with the reliable correspondent services of MMM Legal Consultants. Our seamless assistance supports your professional needs efficiently. </p>
+                    <p>
+                      When you visit our office, we'll explore how our services can enhance your practice's effectiveness and success.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="heading-11">
+                  <button
+                    class="accordion-button"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#service-11"
+                    aria-expanded="true"
+                    aria-controls="service-11"
+                  >
+                  Labour Law Advocacy & Support </button>
+                </h2>
+                <div
+                  id="service-11"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="heading-11"
+                  data-bs-parent="#services"
+                >
+                  <div class="accordion-body">
+                    <p>
+                      Protect your workplace rights with the dedicated team at MMM Legal Consultants. During your visit to our office, we'll address your workplace concerns and provide personalized solutions to ensure fair treatment and uphold your rights in the professional sphere.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="heading-12">
+                  <button
+                    class="accordion-button"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#service-12"
+                    aria-expanded="true"
+                    aria-controls="service-12"
+                  >
+                  Wrongful Arrest Advocacy:
+                  </button>
+                </h2>
+                <div
+                  id="service-12"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="heading-12"
+                  data-bs-parent="#services"
+                >
+                  <div class="accordion-body">
+                    <p>
+                      Injustice demands a strong and unwavering voice, and MMM Legal Consultants is here to be that voice. If you've experienced a wrongful arrest, visiting our office can be the first step toward justice being served.  <p>
+                     </p>
+                     <P>Our team will attentively listen to your story, examine the facts, and tirelessly fight to rectify the situation.</P>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Topics-->
+
+    <!--Contact form & reviews-->
+    <section id="contact">
+      <div class="container-lg">
+        <div class="text-center">
+          <h2>Get in Touch</h2>
+          <p class="lead">Question to ask? fill out thr form to contsct us</p>
+        </div>
+        <div class="row  justify-content-center my-5 rounded bg-light">
+          
+          <div class=" mt-1 col-md-6 col-sm-12 col-xs-12 form border-5 rounded">
+            <h5 class="text-center  text-decoration-underline">Contact From</h5>
+            <form>
+              <label for="email" class="form-label">Email address:</label>
+              <div class="mb-4 input-group">
+                <span class="input-group-text">
+                  <i class="bi bi-envelope-fill"></i>
+                </span>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  placeholder="e.g myname@gmail.com"
+                />
+                <span class="input-group-text">
+                  <span
+                    class="toolt"
+                    data-bs-placement="bottom"
+                    title="Email we can reply to"
+                  >
+                    <i class="bi bi-question-circle muted"></i>
+                  </span>
+                </span>
+              </div>
+
+              <label for="name" class="form-label">Name:</label>
+              <div class="mb-4 input-group">
+                <span class="input-group-text">
+                  <i class="bi bi-person-fill"></i>
+                </span>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="name"
+                  placeholder="James"
+                />
+                <span class="input-group-text">
+                  <span
+                    class="toolt"
+                    data-bs-placement="bottom"
+                    title="Full Name"
+                  >
+                    <i class="bi bi-question-circle muted"></i>
+                  </span>
+                </span>
+              </div>
+              <label for="name" class="form-label">Phone</label>
+              <div class="mb-4 input-group">
+                <span class="input-group-text">
+                  
+                  <i class="bi bi-telephone-fill"></i>
+                  (+27)
+                </span>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="phone"
+                  placeholder="723456789"
+                  minlength="9"
+                  maxlength="9"
+                />
+                <span class="input-group-text">
+                  <span
+                    class="toolt"
+                    data-bs-placement="bottom"
+                    title="Contact number you was us to reply to"
+                  >
+                    <i class="bi bi-question-circle muted"></i>
+                  </span>
+                </span>
+              </div>
+              <label for="name" class="form-label">From:</label>
+              <div class="mb-4 input-group">
+                <span class="input-group-text">
+                  <i class="bi bi-house-fill"></i>
+                </span>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="from"
+                  placeholder="Ga-Mathabatha/ Labour Department..."
+                />
+                <span class="input-group-text">
+                  <span
+                    class="toolt"
+                    data-bs-placement="bottom"
+                    title="If you are a client, What is your address. If you are a partner/ Investor, Enter your company name"
+                  >
+                    <i class="bi bi-question-circle muted"></i>
+                  </span>
+                </span>
+              </div>
+              <label for="you_are" class="form-label">You are:</label>
+              <select name="" id="you_are" class="form-select">
+                <option value="Existing Client" selected>Existing Client</option>
+                <option value="New Client"></option>
+                <option value="Investor">Investor</option>
+                <option value="Partner">Partner</option>
+                <option value="Other">Other</option>
+              </select>
+
+              <label for="subject" class="form-label">Reason for reaching out:</label>
+              <select name="" id="subject" class="form-select">
+                <option value="Booking" selected>Booking</option>
+                <option value="Enquire">Enquire</option>
+                <option value="Cancel Appointment">Cancel Appointment</option>
+                <option value="Other">Other</option>
+              </select>
+              
+              <div class="form-floating mb-4 mt-5">
+                <textarea
+                  id="message"
+                  class="form-control"
+                  style="height: 140px"
+                ></textarea>
+                <label for="message">Message</label>
+              </div>
+              <div class="mb-4 text-center">
+                <button type="submit" onclick="sendMail()" class="btn btn-secondary">submit</button>
+              </div>
+              <hr>
+              <h5 class="text-center">Location:</h5>
+              <iframe   class=" form-control border-5 rounded" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14590.187599025729!2d29.4440719!3d-23.9056806!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1ec6d82301d15555%3A0x84e009ffac4c803d!2sPE%20Mashola%20Inc.!5e0!3m2!1sen!2sza!4v1694602268837!5m2!1sen!2sza" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>      
+     
+            </form>
+            
+          </div>
+          <div class="row  col-md-1 col-sm-12 col-xs-12"></div>
+          <div class="row  col-md-5 col-sm-12 col-xs-12 bg-dark rounded">
+            <div class="justify-content-center">
+              <H5 class="text-center text-white text-decoration-underline">Reviews:</H5>
+              <div class="list-group">
+                <div class="list-group-item py-3 mb-3">
+                  <div class="pb-2">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                  </div>
+                  <h5 class="mb-1">
+                    Road Accident Fund (RAF) Assistance:
+                  </h5>
+                  <p class="mb-1">
+                    After a devastating accident, I was overwhelmed with medical bills and uncertainty about the future. The team at MMM Legal Consultants provided me with invaluable assistance through their 'Road Accident Fund Claims Assistance.' Their expertise in navigating the legal complexities of the Road Accident Fund allowed me to focus on my recovery. Thanks to MMM Legal Consultants, I received the compensation I needed to rebuild my life. They truly stand by their clients in times of need.</p>
+                  <small>Review by Ranoto LJ</small>
+                </div>
+                <div class="list-group-item py-3 mb-3">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <h5 class="mb-1">
+                    Securing My Financial Future:
+                  </h5>
+                  <p class="mb-1">
+                    Financial stability was my primary concern when I sought help from MMM Legal Consultants. Their 'Maintenance Advocacy & Support' services were a lifeline during a challenging period of my life. The team at MMM Legal Consultants worked tirelessly to ensure that I received the rightful maintenance support I needed to secure my future. Their expertise in financial matters is truly impressive. If you're facing maintenance issues, don't hesitate to visit MMM Legal Consultants. </p>
+                  <small>Review by John D.</small>
+                </div>
+                <div class="list-group-item py-3 mb-3">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <h5 class="mb-1">
+                    Divorce Made Easier:
+                  </h5>
+                  <p class="mb-1">
+                    I recently went through a challenging divorce, and the assistance I received from MMM Legal Consultants was nothing short of remarkable. Their 'Divorce & Mediation Services' made a difficult time in my life much more manageable. They provided the legal expertise I needed while also offering emotional support during this emotional journey. I am grateful for their guidance and understanding throughout the process. If you're facing a divorce, I highly recommend MMM Legal Consultants</p>
+                  <small>Review by Mabu</small>
+                </div>
+               
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- <section
+    class="mt-5 bg-light"
+    id="Location"
+    
+  >
+    <div class="container-lg ">
+      <div class="text-center">
+        <h2>Location</h2>
+        <p class="lead text-muted"> MMM Legal Consultants:</p>
+      </div>
+      <div class="row justify-content-center align-items-center my-5">
+        <div class=" col-md-5 col-sm-12 col-xs-12 map-area">
+            
+              <iframe class="border-5 rounded" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14590.187599025729!2d29.4440719!3d-23.9056806!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1ec6d82301d15555%3A0x84e009ffac4c803d!2sPE%20Mashola%20Inc.!5e0!3m2!1sen!2sza!4v1694602268837!5m2!1sen!2sza" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>      
+      <br><br>
+            </div>
+      
+      
+    </div>
+    </div>
+    <br><br>
+  </section> -->
+    <!--Footers-->
+    <section>
+      <div class="container-lg bg-light shadow box-shadow-lg">
+        <footer></footer>
+          <div class="text-center">
+            <p>
+              2023 &copy; Copyrights Reserved by
+              <a href="https://www.brofastdigitals.com" target="_blank"
+                >BroFastDigitals</a
+              >
+            </p>
+            <h5>About BroFast Digital (Mini-Paragraph):
+</h5>
+            <p>
+              BroFast Digitals: Youth-led Innovators in Software Development</p>
+            <img
+              src="Bro fast Logo.png"
+              width="80"
+              class="img-fluid pb-2"
+            />
+          </div>
+        </footer>
+      </div>
+    </section>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+   
+
+  </body>
+</html>

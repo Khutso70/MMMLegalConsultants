@@ -1,0 +1,34 @@
+body {
+  background-color: rgb(243, 243, 243);
+}
+#services {
+  background-image: linear-gradient(to 90deg, rgb(0, 132, 255), #fff);
+}
+.bg-light {
+  background-color: aqua;
+}
+.form {
+  box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
+}
+.map-area {
+  width: 600px;
+  height: 465px;
+  background: #fff;
+  box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
+}
+.map-area iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+@media (max-width: 1249px) {
+  .map-area {
+    width: 100%;
+    height: 400px;
+  }
+}
+@media (max-width: 768px) {
+  iframe {
+    height: 7680px;
+  }
+}
