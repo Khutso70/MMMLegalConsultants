@@ -27,4 +27,8 @@ body {
     height: 400px;
   }
 }
-
+@media (max-width: 768px) {
+  iframe {
+    height: 300px;
+  }
+}
